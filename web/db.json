@@ -1,0 +1,78 @@
+
+
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Wick",
+      "email": "john@example.com",
+      "role": "teacher",
+      "bio": "Programming instructor with 5 years of experience."
+    },
+    {
+      "id": "2",
+      "name": "Sokha Kim",
+      "email": "sokha@example.com",
+      "role": "teacher",
+      "bio": "English teacher specializing in communication skills."
+    },
+    {
+      "id": "3",
+      "name": "Dara Lim",
+      "email": "dara@example.com",
+      "role": "student"
+    }
+  ],
+  "classes": [
+    {
+      "id": "1",
+      "teacherId": 1,
+      "title": "Python for Beginners",
+      "description": "Learn Python programming from the basics.",
+      "category": "Programming",
+      "price": 69,
+      "priceUnit": "course",
+      "mode": "in-person",
+      "location": "Phnom Penh",
+      "startDate": "2026-12-05",
+      "endDate": "2027-01-30",
+      "schedule": "Saturday and Sunday, 8:00 AM - 11:00 AM",
+      "capacity": 25,
+      "registeredCount": 8,
+      "status": "upcoming"
+    },
+    {
+      "id": "2",
+      "teacherId": 2,
+      "title": "English Speaking for Beginners",
+      "description": "Improve your everyday English speaking skills.",
+      "category": "Language",
+      "price": 45,
+      "priceUnit": "month",
+      "mode": "online",
+      "startDate": "2026-12-10",
+      "endDate": "2027-02-10",
+      "schedule": "Monday and Wednesday, 6:00 PM - 7:30 PM",
+      "capacity": 15,
+      "registeredCount": 12,
+      "status": "upcoming"
+    },
+    {
+      "id": "3",
+      "teacherId": 1,
+      "title": "Web Development Fundamentals",
+      "description": "Learn HTML, CSS, and JavaScript.",
+      "category": "Programming",
+      "price": 79,
+      "priceUnit": "month",
+      "mode": "in-person",
+      "location": "Phnom Penh",
+      "startDate": "2026-12-15",
+      "endDate": "2027-03-15",
+      "schedule": "Saturday and Sunday, 1:00 PM - 4:00 PM",
+      "capacity": 25,
+      "registeredCount": 10,
+      "status": "upcoming"
+    }
+  ]
+}
